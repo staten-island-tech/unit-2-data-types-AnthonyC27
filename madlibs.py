@@ -33,10 +33,10 @@ else:
 x = "test"
 print(f"hello {x}")
 
-temp = 75
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
+number = 68
+if number > 68:
+    print('wrong')
+elif number == 68:
+    print('even')
 else:
-    print('cold')
+    print('odd')
