@@ -6,7 +6,7 @@ def truthy(x,y):
         print("Glitch!!!")
     else:
         if x == y:
-            Print("False")
+            print("False")
         elif x != y:
-            Print("True")
+            print("True")
 truthy(x,y)
