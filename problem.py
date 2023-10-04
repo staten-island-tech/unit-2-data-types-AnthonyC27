@@ -1,9 +1,12 @@
-x= bool(input("Do you have a soccer ball? Yes or No"))
-y = bool(input("Do you play soccer? Yes or No"))
+x= bool(input("Do you have a soccer ball? True or False"))
+y = bool(input("Do you play soccer? True or False"))
 output1 = ("You play soccer")
 output2 = ("You don't play soccer")
 output3 = ("You have a soccer ball")
-if x == True & y == True:
+output4 = ("You are broke")
+if x == True and y == True:
     print(output1)
-if x == True & y == False:
+elif  x == False and y == False:
+    print(output2)
+elif x == True and y == False:
     print(output3)
